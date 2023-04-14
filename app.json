@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "NewsareaExpo",
-    "slug": "NewsareaExpo",
+    "name": "Newsarea.",
+    "slug": "Newsarea.",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icons/Logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icons/Artboard.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
