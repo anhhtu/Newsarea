@@ -2,7 +2,7 @@ export const PostsData = [
     {
         id: '1',
         author: 'Jen',
-        category: 'Kinh Doanh',
+        category: 'VĂN HÓA ĐI LÀM',
         title: 'Vì sao cần xây dựng môi trường làm việc hiện đại, tốt lành?',
         subTitle: 'Một môi trường tốt lành sẽ giúp nhân viên cảm thấy an toàn về tài chính, sức khỏe, được trao cơ hội để khẳng định bản thân, và kiến tạo giá trị cho doanh nghiệp cũng như xã hội.',
         imageURL: 'https://img.vietcetera.com/uploads/images/08-mar-2023/a-working-woman.jpg',
@@ -11,7 +11,7 @@ export const PostsData = [
     {
         id: '2',
         author: 'minh',
-        category: 'Sáng Tạo',
+        category: 'SÁNG TẠO',
         title: "NSƯT Lê Thiện, muốn thành công phải có 'máu liều' và 'máu lì'",
         subTitle: 'Hành trình của “bà nội quốc dân” Lê Thiện đầy ắp thú vị và bất ngờ, với những khoảnh khắc hiếm có, không phải ai làm nghệ thuật cũng có thể nếm thử. ',
         imageURL: 'https://img.vietcetera.com/uploads/images/12-apr-2023/feature.jpg',
@@ -20,7 +20,7 @@ export const PostsData = [
     {
         id: '3',
         author: 'Sơn Hoàng',
-        category: 'Sáng Tạo',
+        category: 'SÁNG TẠO',
         title: 'Synthwave Boy: Người bạn mới của Lofi Girl',
         subTitle: 'Bạn đã hết chuyện để nói với Lofi Girl? Bạn cảm thấy cô học hơi nhiều? Hay đơn giản, bạn chán nghe lofi rồi? Vậy hãy thử thăm người bạn mới của cô nhé.',
         imageURL: 'https://img.vietcetera.com/uploads/images/12-apr-2023/230412-tll.jpg',
@@ -29,7 +29,7 @@ export const PostsData = [
     {
         id: '4',
         author: 'Lâm Lê',
-        category: 'Sáng Tạo',
+        category: 'SÁNG TẠO',
         title: 'Beef và câu chuyện oan gia hỗn chiến, nghiệp quả cân bằng',
         subTitle: 'Hai nhân vật chính trong Beef là hai kẻ đang mắc kẹt trong mê cung cuộc sống do chính họ tạo ra. Khi có một mồi lửa được châm ngòi, cơn giận dữ được dịp bùng phát.',
         imageURL: 'https://img.vietcetera.com/uploads/images/12-apr-2023/dienanh-guide.jpg',
@@ -38,7 +38,7 @@ export const PostsData = [
     {
         id: '5',
         author: 'Long Vũ',
-        category: 'Kinh Doanh',
+        category: 'KINH DOANH',
         title: 'Bare minimum mondays: Cơ chế đối phó để không kiệt sức từ đầu tuần',
         subTitle: 'Làm việc ở mức độ tối thiểu vào thứ Hai sẽ giúp những ai cải thiện sức khoẻ tâm lý?',
         imageURL: 'https://img.vietcetera.com/uploads/images/04-apr-2023/bocterm.jpg',
@@ -47,7 +47,7 @@ export const PostsData = [
     {
         id: '6',
         author: 'Sơn Hoàng',
-        category: 'Cuộc Sống',
+        category: 'CUỘC SỐNG',
         title: 'Một thập kỷ làm nội dung của các vlogger Việt Nam',
         subTitle: 'Cùng nhớ về thời kỳ đầu của làng vlog Việt với những chiếc máy quay đơn giản, những khung hình hơi mờ, và sự khởi đầu của một trào lưu.',
         imageURL: 'https://img.vietcetera.com/uploads/images/06-apr-2023/thoichungtoi-template.jpg',

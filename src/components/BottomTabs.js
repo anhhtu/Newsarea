@@ -1,10 +1,10 @@
 import { View, Image } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import Home from "./screens/Home";
-import Podcasts from "./screens/Podcasts";
-import Series from "./screens/Series";
-import Profile from "./screens/Profile";
+import Home from "../screens/Home";
+import Podcasts from "../screens/Podcasts";
+import Series from "../screens/Series";
+import Profile from "../screens/Profile";
 
 const Tab = createBottomTabNavigator();
 
@@ -16,6 +16,7 @@ export default function BottomTabs() {
         headerShown: false,
         tabBarShowLabel: false,
         tabBarStyle: {
+          position: 'absolute',
           height: 90,
         },
       }}
@@ -27,11 +28,11 @@ export default function BottomTabs() {
           tabBarIcon: ({ focused }) => (
             <View>
               <Image
-                source={require("./assets/icons/home.png")}
+                source={require("../assets/icons/home.png")}
                 resizeMode="contain"
                 style={{
-                  width: 30,
-                  height: 30,
+                  width: 28,
+                  height: 28,
                   tintColor: focused ? "#017840" : undefined,
                 }}
               />
@@ -46,11 +47,11 @@ export default function BottomTabs() {
           tabBarIcon: ({ focused }) => (
             <View>
               <Image
-                source={require("./assets/icons/podcast.png")}
+                source={require("../assets/icons/podcast.png")}
                 resizeMode="contain"
                 style={{
-                  width: 30,
-                  height: 30,
+                  width: 28,
+                  height: 28,
                   tintColor: focused ? "#017840" : undefined,
                 }}
               />
@@ -65,11 +66,11 @@ export default function BottomTabs() {
           tabBarIcon: ({ focused }) => (
             <View>
               <Image
-                source={require("./assets/icons/series.png")}
+                source={require("../assets/icons/series.png")}
                 resizeMode="contain"
                 style={{
-                  width: 32,
-                  height: 32,
+                  width: 34,
+                  height: 34,
                   tintColor: focused ? "#017840" : undefined,
                 }}
               />
@@ -84,11 +85,11 @@ export default function BottomTabs() {
           tabBarIcon: ({ focused }) => (
             <View>
               <Image
-                source={require("./assets/icons/profile.png")}
+                source={require("../assets/icons/profile.png")}
                 resizeMode="contain"
                 style={{
-                  width: 30,
-                  height: 30,
+                  width: 28,
+                  height: 28,
                   tintColor: focused ? "#017840" : undefined,
                 }}
               />
