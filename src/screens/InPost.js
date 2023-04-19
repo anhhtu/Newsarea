@@ -1,10 +1,12 @@
 import { StyleSheet, Text, View, SafeAreaView } from 'react-native'
 import React from 'react'
 
-const InPost = () => {
+const InPost = ({route}) => {
+  const {item} = route.params
+
   return (
     <SafeAreaView>
-      <Text>InPost</Text>
+      <Text>{item.content}</Text>
     </SafeAreaView>
   )
 }

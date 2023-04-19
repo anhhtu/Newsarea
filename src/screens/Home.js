@@ -8,12 +8,12 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import TopView from "../components/home/TopView";
 import MiddleView from "../components/home/MiddleView";
 
-const Home = () => {
+const Home = ({navigation}) => {
 
   return (
     <SafeAreaView style={styles.container}>
       <TopView/>
-      <MiddleView/>
+      <MiddleView navigation={navigation}/>
       <View style={styles.bottomView}></View>
     </SafeAreaView>
   );

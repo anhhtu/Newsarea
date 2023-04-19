@@ -1,10 +1,13 @@
 import { StyleSheet, Text, View, ScrollView, Pressable } from "react-native";
-import React, { useState } from "react";
+import React from "react";
 
 import { categoryList } from "../../data/categories";
+import { useSelector, useDispatch } from "react-redux";
+import { filterPostsOnCategory } from "../../redux/slice";
 
 const CategoryTabs = () => {
-  const [activeTab, setActiveTab] = useState("MỚI NHẤT");
+  const activeTab = useSelector(state => state.postFilter.activeTab)
+  const dispatch = useDispatch();
 
   return (
     <ScrollView
@@ -13,8 +16,13 @@ const CategoryTabs = () => {
       horizontal={true}
       showsHorizontalScrollIndicator={false}
     >
-      {categoryList.map((category, index) => (
-        <Pressable onPress={() => setActiveTab(category.name)} key={index}>
+      {categoryList.map((category) => (
+        <Pressable
+          onPress={() => {
+            dispatch(filterPostsOnCategory(category.name))
+          }}
+          key={category.id}
+        >
           <View
             style={[
               styles.categoryWrapper,

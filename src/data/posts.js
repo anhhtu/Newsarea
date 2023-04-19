@@ -2,11 +2,11 @@ export const PostsData = [
     {
         id: '1',
         author: 'Jen',
-        category: 'VĂN HÓA ĐI LÀM',
+        category: 'KINH DOANH',
         title: 'Vì sao cần xây dựng môi trường làm việc hiện đại, tốt lành?',
         subTitle: 'Một môi trường tốt lành sẽ giúp nhân viên cảm thấy an toàn về tài chính, sức khỏe, được trao cơ hội để khẳng định bản thân, và kiến tạo giá trị cho doanh nghiệp cũng như xã hội.',
         imageURL: 'https://img.vietcetera.com/uploads/images/08-mar-2023/a-working-woman.jpg',
-        content: '“Với các bạn trẻ ngày nay, môi trường làm việc lý tưởng không chỉ dừng lại ở những chính sách phúc lợi, mà còn là những giá trị chung giữa nhân sự và công ty. Các bạn quan tâm nhiều hơn tới sức khỏe tinh thần, thiết bị hỗ trợ làm việc, các chương trình đào tạo để phát triển sự nghiệp hay xa hơn là hội nhập quốc tế", chị Nguyễn Tâm Trang, Tổng giám đốc Nhân sự GREENFEED Việt Nam, chia sẻ. Với hơn 25 năm kinh nghiệm trong ngành nhân sự, đảm nhiệm nhiều vị trí lãnh đạo nhân sự cấp cao tại các tập đoàn đa quốc gia lớn trong nước, khu vực và toàn cầu như Unilever, Sanofi, năm 2022, chị Trang trở về Việt Nam và gia nhập GREENFEED ở cương vị nữ Tổng giám đốc đầu tiên trong đội ngũ lãnh đạo nòng cốt của Tập đoàn. Chúng tôi đã có dịp trò chuyện cùng chị Trang để nghe chị chia sẻ về những dự định, tâm huyết xây dựng môi trường làm việc tốt lành, sáng tạo, trong lĩnh vực Nông nghiệp - Thực phẩm, một ngành vốn được xem là có phần truyền thống trên thị trường hiện nay.'
+        content: '“Với các bạn trẻ ngày nay, môi trường làm việc lý tưởng không chỉ dừng lại ở những chính sách phúc lợi, mà còn là những giá trị chung giữa nhân sự và công ty. Các bạn quan tâm nhiều hơn tới sức khỏe tinh thần, thiết bị hỗ trợ làm việc, các chương trình đào tạo để phát triển sự nghiệp hay xa hơn là hội nhập quốc tế", chị Nguyễn Tâm Trang, Tổng giám đốc Nhân sự GREENFEED Việt Nam, chia sẻ. \nVới hơn 25 năm kinh nghiệm trong ngành nhân sự, đảm nhiệm nhiều vị trí lãnh đạo nhân sự cấp cao tại các tập đoàn đa quốc gia lớn trong nước, khu vực và toàn cầu như Unilever, Sanofi, năm 2022, chị Trang trở về Việt Nam và gia nhập GREENFEED ở cương vị nữ Tổng giám đốc đầu tiên trong đội ngũ lãnh đạo nòng cốt của Tập đoàn. \nChúng tôi đã có dịp trò chuyện cùng chị Trang để nghe chị chia sẻ về những dự định, tâm huyết xây dựng môi trường làm việc tốt lành, sáng tạo, trong lĩnh vực Nông nghiệp - Thực phẩm, một ngành vốn được xem là có phần truyền thống trên thị trường hiện nay.'
     },
     {
         id: '2',
