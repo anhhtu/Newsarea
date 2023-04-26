@@ -4,7 +4,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 
 const Series = () => {
-  const count = useSelector(state => state.counter.value)
+  const count = useSelector(state => state.postFilter.value)
 
   return (
     <SafeAreaView>
