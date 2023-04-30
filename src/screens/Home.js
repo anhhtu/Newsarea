@@ -28,6 +28,6 @@ const styles = StyleSheet.create({
   },
 
   bottomView: {
-    height: 50,
+    height: 54,
   },
 });

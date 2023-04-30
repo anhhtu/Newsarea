@@ -67,6 +67,7 @@ const MiddleView = ({ navigation }) => {
         data={postsDataFromStore}
         renderItem={renderPost}
         keyExtractor={(item) => item.id}
+        showsVerticalScrollIndicator={false}
       />
     </View>
   );

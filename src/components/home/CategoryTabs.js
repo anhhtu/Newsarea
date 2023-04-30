@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View, ScrollView, Pressable } from "react-native";
-import React from "react";
+import React, { useState } from "react";
 
 import { categoryList } from "../../data/categories";
 import { useSelector, useDispatch } from "react-redux";
