@@ -3,7 +3,7 @@ import React from "react";
 
 import { deviceWidth } from "../../extensions/DeviceDimension";
 
-const LoginPart = () => {
+const LoginPart = ({navigation}) => {
   return (
     <View style={styles.container}>
       <Image style={styles.profileAvatar} source={require('../../assets/icons/user.png')} />
@@ -11,13 +11,13 @@ const LoginPart = () => {
       <Text style={{color: '#5B5B5B', lineHeight: 21}}>Trải nghiệm tất cả tính năng trên Vietcetera một cách tốt nhất</Text>
 
       <View style={styles.buttonContainer}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('AccountMethodScreen')}>
           <View style={styles.loginButtonWrapper}>
             <Text style={styles.loginText}>ĐĂNG NHẬP</Text>
           </View>
         </TouchableOpacity>
 
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('AccountMethodScreen')}>
           <View style={styles.signupButtonWrapper}>
             <Text style={styles.signupText}>TẠO TÀI KHOẢN</Text>
           </View>
@@ -32,7 +32,7 @@ export default LoginPart;
 const styles = StyleSheet.create({
   container: {
     borderBottomWidth: 0.3,
-    borderBottomColor: '#797979',
+    borderBottomColor: '#AFAFAF',
   },
   buttonContainer: {
     flexDirection: 'row',

@@ -12,12 +12,12 @@ import Header from "../components/profile/Header";
 import LoginPart from "../components/profile/LoginPart";
 import AboutPart from "../components/profile/AboutPart";
 
-const Profile = () => {
+const Profile = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
       <Header />
       <ScrollView style={styles.mainView} showsVerticalScrollIndicator={false}>
-        <LoginPart />
+        <LoginPart navigation={navigation}/>
         <AboutPart />
       </ScrollView>
       <View style={{height: 54}}></View>
