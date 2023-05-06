@@ -38,7 +38,7 @@ export default AccountMethodScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "black",
+    backgroundColor: "#292929",
   },
   mainView: {
     backgroundColor: "#FFF",
@@ -63,7 +63,8 @@ const styles = StyleSheet.create({
   },
   tabText: {
     fontWeight: 'bold',
-    color: '#797979'
+    color: '#797979',
+    position: 555555500000'absolute'
   },
   activeText: {
     color: '#292929'

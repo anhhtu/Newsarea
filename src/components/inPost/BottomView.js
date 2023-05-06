@@ -12,12 +12,15 @@ const BottomView = ({ item }) => {
     setTimeout(() => {
       setIsAlertVisible(false);
     }, 3000);
-  }
+  };
 
   return (
     <View style={styles.container}>
       <TouchableOpacity
-        onPress={() => {setFavourite(isFavourite != true ? true : false), handleAddToFavourite()}}
+        onPress={() => {
+          setFavourite(isFavourite != true ? true : false),
+            handleAddToFavourite();
+        }}
       >
         <Image
           style={styles.icons}
@@ -66,11 +69,13 @@ const BottomView = ({ item }) => {
         />
       </TouchableOpacity>
       <>
-      {isAlertVisible==true ? (<View style={styles.addToFavouriteAlert}>
-        <Text style={{ color: "white", fontWeight: "600" }}>
-          {isFavourite!=true ? 'ĐÃ XÓA LƯU' : 'ĐÃ LƯU BÀI VIẾT'}
-        </Text>
-      </View>) : null}
+        {isAlertVisible == true ? (
+          <View style={styles.addToFavouriteAlert}>
+            <Text style={{ color: "white", fontWeight: "600" }}>
+              {isFavourite != true ? "ĐÃ XÓA LƯU" : "ĐÃ LƯU BÀI VIẾT"}
+            </Text>
+          </View>
+        ) : null}
       </>
     </View>
   );
