@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
   tabText: {
     fontWeight: 'bold',
     color: '#797979',
-    position: 555555500000'absolute'
+    position: 'absolute'
   },
   activeText: {
     color: '#292929'
