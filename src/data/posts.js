@@ -1,5 +1,27 @@
 export const PostsData = [
     {
+        id: '0',
+        like: 102,
+        author: 'Nguyễn Hồng',
+        authorAvatar: 'https://img.vietcetera.com/uploads/avatar-images/18-jan-2023/user-1674013818888.jpg',
+        category: 'SÁNG TẠO',
+        timestamp: '07 thg 04, 2023',
+        title: 'Triển lãm Fragment of Soul – Mảnh Linh hồn: Chốn tĩnh lặng để khám phá bản thân',
+        subTitle: 'Triển lãm “Fragment of Soul – Mảnh linh hồn” mang đến không gian tĩnh lặng cho những góc nhìn và sự khám phá bản thân.',
+        imageURL: 'https://img.vietcetera.com/uploads/images/04-may-2023/manh-linh-hon-exhibition-khooanguyen-002.jpg',
+        content: 'Theo thuyết nhị nguyên, mọi thứ tồn tại trong đời sống đều có hai mặt đối lập. Quy luật này cho rằng vạn vật được tạo thành từ sự tương tác cân bằng giữa các trạng thái đối lập và mâu thuẫn nhau. Để hiểu được ánh sáng thì trước tiên, ta phải hiểu được bóng tối, trạng thái khi thiếu đi ánh sáng. Chỉ khi mò mẫm trong bóng tối, ta mới trân trọng ánh sáng.',
+        comment: [
+            {
+                commentUserId: '1',
+                commentContent: 'Good job!'
+            },
+            {
+                commentUserId: '2',
+                commentContent: 'Well done!'
+            }
+        ]
+    },
+    {
         id: '1',
         like: 102,
         author: 'Jen',
@@ -131,4 +153,115 @@ export const PostsData = [
             }
         ]
     },
+    {
+        id: '7',
+        like: 56,
+        author: 'Hiezle Bual',
+        authorAvatar: 'https://img.vietcetera.com/uploads/avatar-images/14-jan-2022/hiezle-bual-1642140453050-160x160.jpg',
+        category: 'KINH DOANH',
+        timestamp: '07 thg 04, 2023',
+        title: 'Tổng Giám đốc Sheraton Saigon: Con người là yếu tố then chốt trong ngành khách sạn',
+        subTitle: 'Julian Wong, Tổng Giám đốc Sheraton Saigon, chia sẻ về cách ông dẫn dắt đội ngũ khách sạn phát triển trên nền tảng bền vững và đổi mới để đưa Sheraton Saigon lên vị thế hiện nay.',
+        imageURL: 'https://img.vietcetera.com/uploads/images/05-may-2023/mr.julian-wong-bobbyvux-5-1683289286134.jpg',
+        content: 'Với nhiều người, thước đo của thành công là sự giàu có, danh tiếng hoặc sức ảnh hưởng. Nhưng với Julian Wong - Tổng Giám đốc tại khách sạn Sheraton Saigon Hotel and Towers, thành công là mang lại nhiều giá trị cho khách hàng, đội ngũ nhân viên và tạo ra những ảnh hưởng tích cực đến cộng đồng.',
+        comment: [
+            {
+                commentUserId: '1',
+                commentContent: 'Good job!'
+            },
+            {
+                commentUserId: '2',
+                commentContent: 'Well done!'
+            }
+        ]
+    },
+    {
+        id: '8',
+        like: 56,
+        author: 'Hải Vân',
+        authorAvatar: 'https://img.vietcetera.com/uploads/images/13-apr-2022/avatar-h-i-v-n-1649835360935.jpg',
+        category: 'CUỘC SỐNG',
+        timestamp: '07 thg 04, 2023',
+        title: 'Cuộc chiến giữa AI và chuyên gia tâm lý: Ai sẽ giành chiến thắng?',
+        subTitle: 'Ngày càng nhiều người tìm đến AI như một giải pháp thay thế chuyên gia tâm lý. Dù vậy, “nhà tâm lý AI” chỉ có thể giúp bạn trong một vài trường hợp chứ không phải tất cả.',
+        imageURL: 'https://img.vietcetera.com/uploads/images/05-may-2023/ai-therapy-feature.jpg',
+        content: 'Với tư cách là người thực hành trong lĩnh vực tham vấn trị liệu tâm lý, tôi từng rất tự tin cho rằng, nếu có ngành nghề nào bị AI thay thế thì ngành tôi sẽ thuộc top cuối cùng. Nhưng hiện tại, trong bối cảnh thế giới có thể thay đổi sau một đêm, suy nghĩ này không hợp lý theo nhiều nghĩa.',
+        comment: [
+            {
+                commentUserId: '1',
+                commentContent: 'Good job!'
+            },
+            {
+                commentUserId: '2',
+                commentContent: 'Well done!'
+            }
+        ]
+    },
+    {
+        id: '9',
+        like: 56,
+        author: 'Long Vũ',
+        authorAvatar: 'https://img.vietcetera.com/uploads/avatar-images/12-apr-2023/vu-hoang-long-1681282620604-160x160.jpg',
+        category: 'CUỘC SỐNG',
+        timestamp: '07 thg 04, 2023',
+        title: 'Những thành tựu mới nhất của kính James Webb định hình lại hiểu biết về vũ trụ',
+        subTitle: '1 năm 4 tháng sau ngày được phóng vào vũ trụ, kính thiên văn James Webb tiếp tục cung cấp những hình ảnh mãn nhãn về vũ trụ, cùng nhiều câu hỏi hóc búa.',
+        imageURL: 'https://img.vietcetera.com/uploads/images/08-may-2023/tomlaila.jpg',
+        content: 'Mới đây, trong hai nghiên cứu được xuất bản trên tờ Nature Astronomy, kính thiên văn James Webb đã xác định được 4 thiên hà xa nhất, lâu đời nhất từng được quan sát.',
+        comment: [
+            {
+                commentUserId: '1',
+                commentContent: 'Good job!'
+            },
+            {
+                commentUserId: '2',
+                commentContent: 'Well done!'
+            }
+        ]
+    },
+    {
+        id: '10',
+        like: 56,
+        author: 'Cao Vy',
+        authorAvatar: 'https://img.vietcetera.com/uploads/avatar-images/17-apr-2023/cao-vy-1681705134572-160x160.jpg',
+        category: 'THƯỞNG THỨC',
+        timestamp: '07 thg 04, 2023',
+        title: 'Gặp gỡ những người chiến thắng tại “Thử thách Đầu bếp Tiềm năng” 2023',
+        subTitle: 'Quán quân của “Thử thách Đầu bếp Tiềm năng” 2023 gọi tên Trịnh Tuấn Dũng - Chef tại Ắp Chen Bistro.',
+        imageURL: 'https://img.vietcetera.com/uploads/images/08-may-2023/rcc-khooanguyen-343-1683546773889.jpeg',
+        content: 'Vừa qua, vòng chung kết “Thử thách Đầu bếp Tiềm năng” - một trong những sự kiện chính của Flavors Vietnam 2023 đã diễn ra tại Trường Du lịch Saigontourist, Thành phố Hồ Chí Minh.',
+        comment: [
+            {
+                commentUserId: '1',
+                commentContent: 'Good job!'
+            },
+            {
+                commentUserId: '2',
+                commentContent: 'Well done!'
+            }
+        ]
+    },
+    {
+        id: '11',
+        like: 56,
+        author: 'Jen',
+        authorAvatar: 'https://img.vietcetera.com/uploads/avatar-images/12-apr-2023/son-hoang-1681282602686-160x160.jpg',
+        category: 'THƯỞNG THỨC',
+        timestamp: '07 thg 04, 2023',
+        title: '24 Giờ ăn chay cùng Mailovesbeauty',
+        subTitle: 'Chay có thể sôi nổi, sáng tạo, lành mạnh hoặc an tĩnh, không bị bó buộc trong bất cứ khuôn mẫu nào.',
+        imageURL: 'https://img.vietcetera.com/uploads/images/04-may-2023/24hseries03-cover-1-.jpg',
+        content: 'Hiện nay, ở Việt Nam, ăn chay không phải là một khái niệm xa lạ. Không còn giới hạn trong tôn giáo hay tín ngưỡng, ăn chay đang dần trở thành một xu hướng ẩm thực hiện đại vì những lợi ích mà nó mang lại.',
+        comment: [
+            {
+                commentUserId: '1',
+                commentContent: 'Good job!'
+            },
+            {
+                commentUserId: '2',
+                commentContent: 'Well done!'
+            }
+        ]
+    },
+   
 ]
