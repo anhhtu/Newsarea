@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
 
   container: {
     flex: 1,
-    height: 420,
+    height: 450,
     marginHorizontal: 15,
     alignItems: "center",
     justifyContent: "center",
