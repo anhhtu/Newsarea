@@ -68,9 +68,9 @@ const AccountMethodScreen = ({navigation, route}) => {
 
         <>
           {activeTab == "ĐĂNG NHẬP" ? (
-            <LoginMethodView />
+            <LoginMethodView navigation={navigation} />
           ) : (
-            <SignupMethodView />
+            <SignupMethodView navigation={navigation}/>
           )}
         </>
       </View>

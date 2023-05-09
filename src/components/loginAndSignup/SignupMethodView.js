@@ -12,7 +12,7 @@ const SignupMethodButton = (props) => (
   </TouchableOpacity>
 );
 
-const SignupMethodView = () => {
+const SignupMethodView = ({navigation}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.titleText}>Tạo tài khoản trên Newsarea</Text>
@@ -28,7 +28,7 @@ const SignupMethodView = () => {
         iconPath={require("../../assets/icons/apple-method.png")}
         buttonText="ĐĂNG KÝ VỚI APPLE"
       />
-      <TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.navigate('SignupScreen')}>
         <Text
           style={{
             textDecorationLine: "underline",

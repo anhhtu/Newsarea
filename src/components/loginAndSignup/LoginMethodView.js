@@ -12,7 +12,7 @@ const LoginMethodButton = (props) => (
   </TouchableOpacity>
 );
 
-const LoginMethodView = () => {
+const LoginMethodView = ({navigation}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.titleText}>Đăng nhập trên Newsarea</Text>
@@ -28,7 +28,7 @@ const LoginMethodView = () => {
         iconPath={require("../../assets/icons/apple-method.png")}
         buttonText="TIẾP TỤC VỚI APPLE"
       />
-      <TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.navigate('LoginScreen')}>
         <Text style={{textDecorationLine: 'underline', marginTop: 20, color: '#797979', fontWeight: '600'}}>TIẾP TỤC VỚI EMAIL</Text>
       </TouchableOpacity>
     </View>

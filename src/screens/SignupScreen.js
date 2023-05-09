@@ -1,14 +1,18 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View, SafeAreaView } from 'react-native'
 import React from 'react'
 
 const SignupScreen = () => {
   return (
-    <View>
+    <SafeAreaView style={styles.container}>
       <Text>SignupScreen</Text>
-    </View>
+    </SafeAreaView>
   )
 }
 
 export default SignupScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  }
+})
