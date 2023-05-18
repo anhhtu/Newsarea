@@ -88,12 +88,13 @@ const styles = StyleSheet.create({
   },
   titleText: {
     fontSize: 27,
-    fontWeight: "bold",
+    fontWeight: "600",
     letterSpacing: 0.3,
   },
   subTitleText: {
     color: "#797979",
     fontSize: 15,
+    lineHeight: 20,
     letterSpacing: 0.3,
     marginTop: 5,
     marginBottom: 15,

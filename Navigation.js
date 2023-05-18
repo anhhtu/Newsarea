@@ -6,6 +6,7 @@ import InPost from "./src/screens/InPost";
 import AccountMethodScreen from "./src/screens/AccountMethodScreen";
 import LoginScreen from "./src/screens/LoginScreen";
 import SignupScreen from "./src/screens/SignupScreen";
+import FavouriteLibrary from "./src/screens/FavouriteLibrary";
 
 const Stack = createNativeStackNavigator();
 
@@ -21,6 +22,7 @@ export default function AppNavigation() {
         <Stack.Screen name="AccountMethodScreen" component={AccountMethodScreen} />
         <Stack.Screen name="LoginScreen" component={LoginScreen} />
         <Stack.Screen name="SignupScreen" component={SignupScreen} />
+        <Stack.Screen name="FavouriteLibrary" component={FavouriteLibrary}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

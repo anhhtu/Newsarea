@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   buttonWrapper: {
-    backgroundColor: "#EAEAEA",
+    backgroundColor: "#EFEFEF",
     width: deviceWidth - 30,
     height: 60,
     borderRadius: 50,

@@ -12,7 +12,7 @@ const SignupMethodButton = (props) => (
   </TouchableOpacity>
 );
 
-const SignupMethodView = ({navigation}) => {
+const SignupMethodView = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.titleText}>Tạo tài khoản trên Newsarea</Text>
@@ -28,7 +28,7 @@ const SignupMethodView = ({navigation}) => {
         iconPath={require("../../assets/icons/apple-method.png")}
         buttonText="ĐĂNG KÝ VỚI APPLE"
       />
-      <TouchableOpacity onPress={() => navigation.navigate('SignupScreen')}>
+      <TouchableOpacity onPress={() => navigation.navigate("SignupScreen")}>
         <Text
           style={{
             textDecorationLine: "underline",
@@ -51,7 +51,7 @@ const SignupMethodView = ({navigation}) => {
         >
           ĐIỀU KHOẢN SỬ DỤNG & CHÍNH SÁCH BẢO MẬT
         </Text>
-        <Text>{" "}của Newsarea</Text>
+        <Text> của Newsarea</Text>
       </Text>
     </View>
   );
@@ -68,12 +68,12 @@ const styles = StyleSheet.create({
   titleText: {
     fontSize: 31,
     fontWeight: "bold",
-    textAlign: 'center',
+    textAlign: "center",
     letterSpacing: 1,
     marginBottom: 10,
   },
   buttonWrapper: {
-    backgroundColor: "#EAEAEA",
+    backgroundColor: "#EFEFEF",
     width: deviceWidth - 30,
     height: 60,
     borderRadius: 50,
@@ -97,6 +97,6 @@ const styles = StyleSheet.create({
     bottom: 40,
     paddingHorizontal: 20,
     fontSize: 12,
-    textAlign: 'center'
+    textAlign: "center",
   },
 });
