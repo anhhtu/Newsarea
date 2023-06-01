@@ -68,6 +68,7 @@ const MiddleView = ({ navigation }) => {
         renderItem={renderPost}
         keyExtractor={(item) => item.id}
         showsVerticalScrollIndicator={false}
+        initialNumToRender={10}
       />
     </View>
   );

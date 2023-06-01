@@ -11,7 +11,7 @@ import React from "react";
 const Header = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <View style={{ width: 25, height: 25 }}></View>
+      <View style={{ width: 21, height: 21 }}></View>
       <Text style={styles.titleText}>Liên hệ</Text>
       <TouchableOpacity>
         <Image
