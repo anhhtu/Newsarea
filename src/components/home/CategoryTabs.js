@@ -58,11 +58,12 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 12,
     justifyContent: "center",
+    alignItems: 'center'
   },
   categoryText: {
     color: "#686868",
     fontWeight: "700",
-    textAlign: "center",
+    alignSelf: 'center',
   },
   activeTabStyle: {
     borderBottomWidth: 2,
