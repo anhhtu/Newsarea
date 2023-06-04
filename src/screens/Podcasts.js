@@ -16,6 +16,7 @@ const Podcasts = () => {
         <PopularPodcasts />
         <AllPodcastShows />
       </ScrollView>
+      <View style={{height: 52}}></View>
     </SafeAreaView>
   );
 };
