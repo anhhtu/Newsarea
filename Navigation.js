@@ -7,6 +7,8 @@ import AccountMethodScreen from "./src/screens/AccountMethodScreen";
 import LoginScreen from "./src/screens/LoginScreen";
 import SignupScreen from "./src/screens/SignupScreen";
 import FavouriteLibrary from "./src/screens/FavouriteLibrary";
+import PodcastPreviewScreen from "./src/screens/PodcastPreviewScreen";
+import PodcastPlayerScreen from "./src/screens/PodcastPlayerScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -23,6 +25,8 @@ export default function AppNavigation() {
         <Stack.Screen name="LoginScreen" component={LoginScreen} />
         <Stack.Screen name="SignupScreen" component={SignupScreen} />
         <Stack.Screen name="FavouriteLibrary" component={FavouriteLibrary}/>
+        <Stack.Screen name="PodcastPreviewScreen" component={PodcastPreviewScreen}/>
+        <Stack.Screen name="PodcastPlayerScreen" component={PodcastPlayerScreen}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

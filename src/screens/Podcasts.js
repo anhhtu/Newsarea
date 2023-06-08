@@ -1,22 +1,17 @@
 import { SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-import LatestPodcasts from "../components/podcast/LatestPodcasts";
-import PopularPodcasts from "../components/podcast/PopularPodcasts";
 import AllPodcastShows from "../components/podcast/AllPodcastShows";
 
-const Podcasts = () => {
+const Podcasts = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.titleText}>Podcasts</Text>
       </View>
-      <ScrollView>
-        <LatestPodcasts />
-        <PopularPodcasts />
-        <AllPodcastShows />
-      </ScrollView>
-      <View style={{height: 52}}></View>
+
+        <AllPodcastShows navigation={navigation} />
+      <View style={{height: 56}}></View>
     </SafeAreaView>
   );
 };
