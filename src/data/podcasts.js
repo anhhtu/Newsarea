@@ -7,7 +7,7 @@ export const podcastData = [
         timestamp: '13 thg 05',
         time: '01:30:34',
         content: '',
-        discription: 'Bất kì dự án nào có sự tham gia của Mỹ Tâm, dự án đó sẽ thu hút được truyền thông và khán giả. Đó là sự thành quả của hơn 20 năm nỗ lực phấn đấu. Trong 20 năm ấy, Mỹ Tâm không ngừng mở rộng tệp khán giả cũng như thử nghiệm nhiều phong cách, thể loại âm nhạc. Nhiều người thác mắc không biết vì sao chị lại duy trì sự thành công lâu bền đến thế. Nhưng fan của chị chắc chắn hiểu rõ câu trả lời.\n\nĐược xem là một trong những nghệ sỹ sống chân thật, liệu có điều gì mà Mỹ Tâm chưa bao giờ tiết lộ cho công chúng? Hãy chuẩn cho mình thức uống yêu thích và đón nghe cuộc trò chuyện giữa Mỹ Tâm và host Thùy Minh nhé.',
+        description: 'Bất kì dự án nào có sự tham gia của Mỹ Tâm, dự án đó sẽ thu hút được truyền thông và khán giả. Đó là sự thành quả của hơn 20 năm nỗ lực phấn đấu. Trong 20 năm ấy, Mỹ Tâm không ngừng mở rộng tệp khán giả cũng như thử nghiệm nhiều phong cách, thể loại âm nhạc. Nhiều người thác mắc không biết vì sao chị lại duy trì sự thành công lâu bền đến thế. Nhưng fan của chị chắc chắn hiểu rõ câu trả lời.\n\nĐược xem là một trong những nghệ sỹ sống chân thật, liệu có điều gì mà Mỹ Tâm chưa bao giờ tiết lộ cho công chúng? Hãy chuẩn cho mình thức uống yêu thích và đón nghe cuộc trò chuyện giữa Mỹ Tâm và host Thùy Minh nhé.',
     },
     {
         id: 1,
@@ -17,7 +17,7 @@ export const podcastData = [
         timestamp: '13 thg 05',
         time: '26:49',
         content: '',
-        discription: 'Tập 4 mùa 2 The Money Date, host An Trương đã có dịp “hỏi xoáy đáp xoay” những kiến thức thiết yếu về đồng tiền cùng khách mời Duy Nguyễn - Senior Analyst tại Dragon Capital, một trong những Quỹ đầu tư lớn nhất và lâu đời nhất tại Việt Nam.\n\nCông việc tại Dragon Capital đã cho Duy cơ hội được học hỏi từ các chuyên gia trong ngành, từ đó trang bị cho bản thân kiến thức thực tiễn để quản lý đồng tiền thông minh trong cuộc sống cá nhân.\n\nTiền là một phần thiết yếu trong cuộc sống của tất cả chúng ta. Có bao giờ bạn tự hỏi nếu có một tỷ thì nên làm gì? Liệu thẻ tính dụng có thật sự “đáng sợ”? Và là một người trẻ, chúng ta nên đầu tư thế nào để phù hợp với số tiền “khiêm tốn” trong tài khoản hiện tại đây? Hãy cũng học hỏi từ khách mời của chúng ta trong tập The Money Date tuần này nhé!',
+        description: 'Tập 4 mùa 2 The Money Date, host An Trương đã có dịp “hỏi xoáy đáp xoay” những kiến thức thiết yếu về đồng tiền cùng khách mời Duy Nguyễn - Senior Analyst tại Dragon Capital, một trong những Quỹ đầu tư lớn nhất và lâu đời nhất tại Việt Nam.\n\nCông việc tại Dragon Capital đã cho Duy cơ hội được học hỏi từ các chuyên gia trong ngành, từ đó trang bị cho bản thân kiến thức thực tiễn để quản lý đồng tiền thông minh trong cuộc sống cá nhân.\n\nTiền là một phần thiết yếu trong cuộc sống của tất cả chúng ta. Có bao giờ bạn tự hỏi nếu có một tỷ thì nên làm gì? Liệu thẻ tính dụng có thật sự “đáng sợ”? Và là một người trẻ, chúng ta nên đầu tư thế nào để phù hợp với số tiền “khiêm tốn” trong tài khoản hiện tại đây? Hãy cũng học hỏi từ khách mời của chúng ta trong tập The Money Date tuần này nhé!',
     },
     {
         id: 2,
@@ -27,7 +27,7 @@ export const podcastData = [
         timestamp: '13 thg 05',
         time: '36:53',
         content: '',
-        discription: 'Tập Gen Z Truyền tuần này có chút thay đổi khi host Vừng bắt đầu câu chuyện bằng những lá bài trong bộ board game Trò Chuyện Trong Tuần, được phát triển bởi Seesaw. Và khách mời kì này không ai khác chính là cô bạn Nhật Tân - CEO của Seesaw (startup các trò chơi về chăm sóc sức khỏe tinh thần).\n\nHai thứ quan trọng nhất đối với Tân chính là bản thân mình và những gì mình làm được cho xã hội. Tân tin rằng mỗi người sinh ra đều có một sứ mệnh, và sứ mệnh của Tân là tạo ra một doanh nghiệp không gây tổn hại đến bất kì ai. Và với Seesaw, đóng góp đó chính là nâng cao đời sống tinh thần cho mọi người.\n\nChính bản thân Tân cũng từng không hiểu lý do sản phẩm của mình chiến thắng ba cuộc thi trong nước và quốc tế. Nhưng một câu nói của ban giám khảo đã xua tan những nghi ngờ của Tân và cho cô động lực để thành lập Seesaw bằng mọi giá. Vậy câu nói đó là gì? Và điều gì đã khiến cô nhận ra và hết mực tin tưởng vào sứ mệnh của mình?\n\nHãy cùng Vừng theo dõi hành trình thành công của Tân tại podcast Gen Z Truyền tuần này nhé!',
+        description: 'Tập Gen Z Truyền tuần này có chút thay đổi khi host Vừng bắt đầu câu chuyện bằng những lá bài trong bộ board game Trò Chuyện Trong Tuần, được phát triển bởi Seesaw. Và khách mời kì này không ai khác chính là cô bạn Nhật Tân - CEO của Seesaw (startup các trò chơi về chăm sóc sức khỏe tinh thần).\n\nHai thứ quan trọng nhất đối với Tân chính là bản thân mình và những gì mình làm được cho xã hội. Tân tin rằng mỗi người sinh ra đều có một sứ mệnh, và sứ mệnh của Tân là tạo ra một doanh nghiệp không gây tổn hại đến bất kì ai. Và với Seesaw, đóng góp đó chính là nâng cao đời sống tinh thần cho mọi người.\n\nChính bản thân Tân cũng từng không hiểu lý do sản phẩm của mình chiến thắng ba cuộc thi trong nước và quốc tế. Nhưng một câu nói của ban giám khảo đã xua tan những nghi ngờ của Tân và cho cô động lực để thành lập Seesaw bằng mọi giá. Vậy câu nói đó là gì? Và điều gì đã khiến cô nhận ra và hết mực tin tưởng vào sứ mệnh của mình?\n\nHãy cùng Vừng theo dõi hành trình thành công của Tân tại podcast Gen Z Truyền tuần này nhé!',
     },
     {
         id: 3,
@@ -37,7 +37,7 @@ export const podcastData = [
         timestamp: '13 thg 05',
         time: '01:17:18',
         content: '',
-        discription: 'Huy Trần có niềm đam mê lớn với ẩm thực. Và anh đã dùng chính đam mê đó để chinh phục, chăm sóc và yêu thương bà xã của mình - chị Ngô Thanh Vân. Món anh nấu không những ngon mà còn tràn đầy màu sắc và sự tinh tế. Bên cạnh đó, cơ hội được đặt chân đến nhiều nơi cũng mang đến cho Huy những trải nghiệm về văn hóa đồ ăn, thức uống vô cùng phong phú.\n\nCó ai lên Have A Sip mà gọi cả một két bia chưa? Có ai đã từng biến một buổi phỏng vấn thành chuyên mục pha chế đồ uống? Cùng xem những lần đầu là lạ như thế với khách mời Huy Trần nhé!',
+        description: 'Huy Trần có niềm đam mê lớn với ẩm thực. Và anh đã dùng chính đam mê đó để chinh phục, chăm sóc và yêu thương bà xã của mình - chị Ngô Thanh Vân. Món anh nấu không những ngon mà còn tràn đầy màu sắc và sự tinh tế. Bên cạnh đó, cơ hội được đặt chân đến nhiều nơi cũng mang đến cho Huy những trải nghiệm về văn hóa đồ ăn, thức uống vô cùng phong phú.\n\nCó ai lên Have A Sip mà gọi cả một két bia chưa? Có ai đã từng biến một buổi phỏng vấn thành chuyên mục pha chế đồ uống? Cùng xem những lần đầu là lạ như thế với khách mời Huy Trần nhé!',
     },
     {
         id: 4,
@@ -47,7 +47,7 @@ export const podcastData = [
         timestamp: '13 thg 05',
         time: '01:13:24',
         content: '',
-        discription: 'Culinary Frank không những là đầu bếp chuyên nghiệp, mà còn là trong những người tiên phong sáng tạo video ASMR ở Việt Nam. Kênh Youtube của anh thành lập từ 2017, thu hút hơn 400 ngàn lượt theo dõi từ những người yêu thích ẩm thực và tìm kiếm sự bình yên. Mỗi video mà Frank gửi đến khán giả đều được chăm chút chỉnh chu từ nguyên liệu, công thức, màu sắc, âm thanh đến hình ảnh.\n\nVì sao Frank theo đuổi ASMR? Đang có một công việc tốt tại Úc, vì sao anh quyết định quay về? Cùng lắng nghe cuộc trò chuyện giữa Culinary Frank và host Thùy Minh nhé!',
+        description: 'Culinary Frank không những là đầu bếp chuyên nghiệp, mà còn là trong những người tiên phong sáng tạo video ASMR ở Việt Nam. Kênh Youtube của anh thành lập từ 2017, thu hút hơn 400 ngàn lượt theo dõi từ những người yêu thích ẩm thực và tìm kiếm sự bình yên. Mỗi video mà Frank gửi đến khán giả đều được chăm chút chỉnh chu từ nguyên liệu, công thức, màu sắc, âm thanh đến hình ảnh.\n\nVì sao Frank theo đuổi ASMR? Đang có một công việc tốt tại Úc, vì sao anh quyết định quay về? Cùng lắng nghe cuộc trò chuyện giữa Culinary Frank và host Thùy Minh nhé!',
     },
     {
         id: 5,
@@ -57,7 +57,7 @@ export const podcastData = [
         timestamp: '13 thg 05',
         time: '01:04:31',
         content: '',
-        discription: 'Nas có nghĩa là “con người” trong tiếng Ả Rập, Daily là tần suất ra video mỗi ngày. Nuseir Yassin ra mắt kênh Nas Daily từ 7 năm trước và đã vươn lên trở thành tên tuổi lớn trong ngành sáng tạo nội dung toàn cầu. Những video ngắn dưới 1 phút luôn mang đến người xem sự hào hứng và tràn đầy điều thú vị về con người và văn hóa trên khắp thế giới. Anh có hàng triệu lượt theo dõi trên các trang mạng xã hội.\n\n“Không ai có thể thắng tất cả cuộc đua.” Thành công trong sự nghiệp nhưng song song với đó, Nuseir Yassin cũng đánh mất tình yêu kéo dài 6 năm của mình. Điều gì đưa anh đến thành công? Điều gì khiến cuộc tình đẹp đẽ đó đổ vỡ?\n\nCùng host Thùy Minh đến với cuộc trò chuyện với Nas Daily tại Dubai nhé!',
+        description: 'Nas có nghĩa là “con người” trong tiếng Ả Rập, Daily là tần suất ra video mỗi ngày. Nuseir Yassin ra mắt kênh Nas Daily từ 7 năm trước và đã vươn lên trở thành tên tuổi lớn trong ngành sáng tạo nội dung toàn cầu. Những video ngắn dưới 1 phút luôn mang đến người xem sự hào hứng và tràn đầy điều thú vị về con người và văn hóa trên khắp thế giới. Anh có hàng triệu lượt theo dõi trên các trang mạng xã hội.\n\n“Không ai có thể thắng tất cả cuộc đua.” Thành công trong sự nghiệp nhưng song song với đó, Nuseir Yassin cũng đánh mất tình yêu kéo dài 6 năm của mình. Điều gì đưa anh đến thành công? Điều gì khiến cuộc tình đẹp đẽ đó đổ vỡ?\n\nCùng host Thùy Minh đến với cuộc trò chuyện với Nas Daily tại Dubai nhé!',
     },
     {
         id: 6,
@@ -67,6 +67,6 @@ export const podcastData = [
         timestamp: '13 thg 05',
         time: '22:37',
         content: '',
-        discription: 'Tuần này, The Money Date hội ngộ với một khách mời đặc biệt - anh Tuân Lê, một gương mặt đã quen thuộc với Vietcetera thông qua vai trò host, khách mời, thậm chí là cựu đồng sáng lập Vietcetera.\n\nLà một người “đội nhiều mũ” khi kiêm rất nhiều vai trò như Art Director, Co-founder, Investor,… anh Tuân Lê sẽ là kiểu người thế nào trong vấn đề tài chính? Cách anh kiếm tiền từ những ngày đầu tiên, cách anh quản lý cũng như làm chúng nhân lên thế nào? Cùng tìm hiểu trong tập The Money Date này cùng host An Trương nhé.',
+        description: 'Tuần này, The Money Date hội ngộ với một khách mời đặc biệt - anh Tuân Lê, một gương mặt đã quen thuộc với Vietcetera thông qua vai trò host, khách mời, thậm chí là cựu đồng sáng lập Vietcetera.\n\nLà một người “đội nhiều mũ” khi kiêm rất nhiều vai trò như Art Director, Co-founder, Investor,… anh Tuân Lê sẽ là kiểu người thế nào trong vấn đề tài chính? Cách anh kiếm tiền từ những ngày đầu tiên, cách anh quản lý cũng như làm chúng nhân lên thế nào? Cùng tìm hiểu trong tập The Money Date này cùng host An Trương nhé.',
     },
 ]
