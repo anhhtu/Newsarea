@@ -102,17 +102,9 @@ const PodcastPreviewScreen = ({ navigation, route }) => {
               </TouchableOpacity>
             </View>
 
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate('PodcastPlayerScreen', {podcast})}>
               <View
-                style={{
-                  flexDirection: "row",
-                  backgroundColor: "#292929",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  borderRadius: 30,
-                  paddingHorizontal: 25,
-                  paddingVertical: 15,
-                }}
+                style={styles.playButtonWrapper}
               >
                 <Image
                   style={{ width: 15, height: 15 }}
@@ -192,4 +184,13 @@ const styles = StyleSheet.create({
     width: 20,
     height: 20,
   },
+  playButtonWrapper: {
+    flexDirection: "row",
+    backgroundColor: "#292929",
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 30,
+    paddingHorizontal: 25,
+    paddingVertical: 15,
+  }
 });
