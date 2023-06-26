@@ -39,35 +39,21 @@ const PodcastPreviewScreen = ({ navigation, route }) => {
         />
       </ImageBackground>
 
-      <ScrollView>
-        <SafeAreaView>
-          <TouchableOpacity onPress={() => navigation.goBack()}>
-            <View
-              style={{
-                backgroundColor: "#797979",
-                alignSelf: "flex-start",
-                padding: 13,
-                borderRadius: 30,
-                marginLeft: 10,
-              }}
-            >
-              <Image
-                style={{ width: 20, height: 20 }}
-                source={require("../assets/icons/back-white.png")}
-              />
-            </View>
-          </TouchableOpacity>
+      <SafeAreaView>
+        <TouchableOpacity
+          style={styles.backButtonWrapper}
+          onPress={() => navigation.goBack()}
+        >
+          <Image
+            style={{ width: 20, height: 20 }}
+            source={require("../assets/icons/back-white.png")}
+          />
+        </TouchableOpacity>
 
+        <ScrollView>
           <View style={styles.upperView}>
             <Image
-              style={{
-                width: deviceWidth / 2 + 60,
-                height: deviceWidth / 2 + 60,
-                borderRadius: 20,
-                borderWidth: 0.4,
-                borderColor: "#FFF",
-                marginBottom: 20,
-              }}
+              style={styles.artworkStyle}
               source={{ uri: podcast.titleImageURL }}
             />
             <Text style={{ color: "#797979" }}>{podcast.timestamp}</Text>
@@ -83,29 +69,27 @@ const PodcastPreviewScreen = ({ navigation, route }) => {
                 width: "32%",
               }}
             >
-              <TouchableOpacity>
-                <View style={styles.buttonWrapper}>
+              <TouchableOpacity style={styles.buttonWrapper}>
                   <Image
                     style={styles.buttonIcon}
                     source={require("../assets/icons/upload.png")}
                   />
-                </View>
               </TouchableOpacity>
-              <TouchableOpacity>
-                <View style={[styles.buttonWrapper, { flexDirection: "row" }]}>
+              <TouchableOpacity style={[styles.buttonWrapper, { flexDirection: "row" }]}>
                   <Image
                     style={styles.buttonIcon}
                     source={require("../assets/icons/comment.png")}
                   />
                   <Text style={{ marginLeft: 5, fontWeight: "600" }}>0</Text>
-                </View>
               </TouchableOpacity>
             </View>
 
-            <TouchableOpacity onPress={() => navigation.navigate('PodcastPlayerScreen', {podcast})}>
-              <View
-                style={styles.playButtonWrapper}
-              >
+            <TouchableOpacity
+              onPress={() =>
+                navigation.navigate("PodcastPlayerScreen", { podcast })
+              }
+            >
+              <View style={styles.playButtonWrapper}>
                 <Image
                   style={{ width: 15, height: 15 }}
                   source={require("../assets/icons/play-button.png")}
@@ -123,8 +107,8 @@ const PodcastPreviewScreen = ({ navigation, route }) => {
             <Text style={styles.introText}>GIỚI THIỆU</Text>
             <Text style={styles.descriptionText}>{podcast.description}</Text>
           </View>
-        </SafeAreaView>
-      </ScrollView>
+        </ScrollView>
+      </SafeAreaView>
     </View>
   );
 };
@@ -142,6 +126,7 @@ const styles = StyleSheet.create({
   },
   underView: {
     paddingHorizontal: 15,
+    paddingBottom: 50
   },
   titleText: {
     color: "#292929",
@@ -192,5 +177,20 @@ const styles = StyleSheet.create({
     borderRadius: 30,
     paddingHorizontal: 25,
     paddingVertical: 15,
-  }
+  },
+  artworkStyle: {
+    width: deviceWidth / 2 + 60,
+    height: deviceWidth / 2 + 60,
+    borderRadius: 20,
+    borderWidth: 0.4,
+    borderColor: "#FFF",
+    marginBottom: 20,
+  },
+  backButtonWrapper: {
+    backgroundColor: "#797979",
+    alignSelf: "flex-start",
+    padding: 13,
+    borderRadius: 30,
+    marginLeft: 10,
+  },
 });
